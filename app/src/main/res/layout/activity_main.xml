@@ -7,6 +7,40 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="첫번째 텍스트뷰"
+        android:textSize="18sp"
+        android:textColor="#0000FF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="두번째 텍스트뷰"
+        android:textSize="16sp"
+        android:textColor="#FF0000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세번째 텍스트뷰"
+            android:textColor="#FF0000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="네번째 텍스트뷰"
+            android:textColor="#FF0000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
 
 </LinearLayout>
